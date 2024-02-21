@@ -41,7 +41,9 @@ st.plotly_chart(fig2)
 st.subheader("Year vs. Global Sales")
 fig3 = px.scatter(filtered_data, x="Year", y="Global_Sales", color="Platform", hover_name="Name", opacity=0.6)
 st.plotly_chart(fig3)
-    
+
+
+st.balloons()
 
 
 
